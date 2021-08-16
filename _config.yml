@@ -1,9 +1,9 @@
 # Basic
 title: OmnipotentFunnyChickenのBlog
-subtitle: 123456789
-welcome_message: <a href="https://github.com/2696791698/2696791698.github.io" target="_blank">Download the theme</a>
+subtitle: 围在城里的人想逃出来，城外的人想冲进去 ————《围城》
+welcome_message: <a href="https://github.com/2696791698/2696791698.github.io" target="_blank">下载源码</a>
 description: OmnipotentFunnyChicken
-creator: <a href="https://github.com/2696791698">@onevcat</a>
+creator: <a href="https://github.com/2696791698">@Omnipotent Funny Chicken</a>
 
 url: "http://www.funnychicken.blog"
 
@@ -37,11 +37,11 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
+    weibo: Omnipotent Funny Chicken
+    github: 2696791698
+    twitter: Omnipotent Funny Chicken
     gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    mail: h2696791698@gmail.com
 
 # Google Analytics
 ga:
