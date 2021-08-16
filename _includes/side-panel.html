@@ -1,6 +1,65 @@
+<!DOCTYPE html>
+<html>
 <head>
-	<audio id="bgmMusic" src="demo.mp3" autoplay="autoplay" loop="loop" preload="auto" type="audio/mp3"></audio>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title></title>
+	<link rel="stylesheet" href="css/player.css">
 </head>
+<body>
+<div id="QPlayer">
+<div id="pContent">
+	<div id="player">
+		<span class="cover"></span>
+		<div class="ctrl">
+			<div class="musicTag marquee">
+				<strong>Title</strong>
+				 <span> - </span>
+				<span class="artist">Artist</span>
+			</div>
+			<div class="progress">
+				<div class="timer left">0:00</div>
+				<div class="contr">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="right">
+					<div class="liebiao icon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ssBtn">
+	        <div class="adf"></div>
+    </div>
+</div>
+<ol id="playlist"></ol>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.marquee.min.js"></script>
+
+<script>
+	var	playlist = [
+{title:"Gravity",artist:"Jessica",mp3:"music/Moonlit Stardust.mp3",cover:"https://p2.music.126.net/jUkeSJt_niqFmatr99mHXA==/109951163260027989.jpg?param=106y106",},
+];
+  var isRotate = true;
+  var autoplay = false;
+</script>
+<script src="js/player.js"></script>
+<script>
+
+function bgChange(){
+	var lis= $('.lib');
+	for(var i=0; i<lis.length; i+=2)
+	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+}
+window.onload = bgChange;
+</script>
+
+</body>
+</html>
 
 <header class="panel-cover {% if page.layout == 'post' or page.layout == 'page' %}panel-cover--collapsed{% endif %}" style="background-image: url('/assets/images/background-cover.jpg')">
   <div class="panel-main">
