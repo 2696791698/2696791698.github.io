@@ -11,6 +11,13 @@
       "font_class": "bilibili-line",
       "unicode": "eeac",
       "unicode_decimal": 61100
+    },
+    {
+      "icon_id": "23179687",
+      "name": "bilibili-fill",
+      "font_class": "bilibili-fill",
+      "unicode": "e7ac",
+      "unicode_decimal": 59308
     }
   ]
 }
