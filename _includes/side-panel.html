@@ -81,15 +81,15 @@ window.onload = bgChange;
         <p class="panel-cover__description">{{ site.description }}</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
         
+        body {
+            margin: 0;
+            padding: 0;
+            color:#777;
+            font:12px Verdana,Arial,Tahoma;
+            text-align:center;
+            background:#fff;
+        }
         {% if site.welcome_message %}
-		body {
-		    margin: 0;
-		    padding: 0;
-		    color:#777;
-		    font:12px Verdana,Arial,Tahoma;
-		    text-align:center;
-		    background:#fff;
-		}
         <p class="panel-cover__description">{{ site.welcome_message }}</p>
         {% endif %}
         
