@@ -71,7 +71,7 @@ window.onload = bgChange;
 </body>
 </html>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		
         <a href="https://funnychicken.netlify.app" title="前往 {{ site.title }} 的 主页" class="blog-button"><img src="/assets/images/avatar.jpg" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" /></a>
         <h1 class="panel-cover__title panel-title"><a href="https://funnychicken.netlify.app" title="前往 {{ site.title }} 的 主页" class="blog-button">{{ site.title }}</a></h1>
         {% if site.subtitle %}
@@ -80,15 +80,7 @@ window.onload = bgChange;
         <hr class="panel-cover__divider" />
         <p class="panel-cover__description">{{ site.description }}</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
-        
-        body {
-            margin: 0;
-            padding: 0;
-            color:#777;
-            font:12px Verdana,Arial,Tahoma;
-            text-align:center;
-            background:#fff;
-        }
+		
         {% if site.welcome_message %}
         <p class="panel-cover__description">{{ site.welcome_message }}</p>
         {% endif %}
